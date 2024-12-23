@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<!-- Coding by ARAPAH -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arapah Official</title>
+    <link rel="icon" type="image/x-icon" href="images/About1.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Linking Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- Linking Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    section[id] {
+      scroll-margin-top: 80px; /* Sesuaikan dengan tinggi navbar */
+    }
+  </style>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <img src="images/About1.jpg" alt="Logo Kopi" class="logo-image" />
+          <h2 class="logo-text">ARAPAH</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-us" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#product" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Gula Aren Asli & Rempah</h2>
+            <h3 class="subtitle">
+              Nikmati Cita Rasa Otentik Indonesia di Segelas Arapah!
+            </h3>
+            <p class="description">
+              Welcome Arenest! Kami hadir dalam bentuk minuman berbahan dasar
+              gula aren murni dan kombinasi rempah herbal alami yang tidak hanya
+              memberikan rasa manis yang lembut, tetapi juga kaya akan manfaat
+              kesehatan!
+            </p>
+            <div class="buttons">
+              <a
+                href="https://wa.me/message/7MFLNC3V42PYI1"
+                class="button order-now"
+                >Order Now</a
+              >
+              <a
+                href="https://wa.me/message/7MFLNC3V42PYI1"
+                class="button contact-us"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/arapah.png" alt="Coffee" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about-us" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 lg:px-20">
+          <div class="text-center mb-12">
+            <h2
+              class="text-4xl font-bold text-gray-800 mb-4"
+              data-aos="fade-right"
+            >
+              About Us
+            </h2>
+            <p class="text-gray-600 max-w-2xl mx-auto" data-aos="fade-left">
+              Minuman Seduh Gula Aren dan Rempah Khas Indonesia
+            </p>
+          </div>
+          <div class="lg:flex lg:items-center lg:gap-12">
+            <!-- Gambar -->
+            <div class="lg:w-1/2" data-aos="fade-up">
+              <img
+                src="images/About1.jpg"
+                alt="Minuman Gula Aren"
+                class="rounded-lg shadow-lg"
+              />
+            </div>
+            <!-- Konten -->
+            <div class="lg:w-1/2 mt-8 lg:mt-0">
+              <p class="text-gray-700 mb-6" data-aos="fade-left">
+                Di Arapah kami menyediakan destinasi utama bagi para pecinta
+                gula aren dan pencari cita rasa autentik. Kami berkomitmen untuk
+                menghadirkan pengalaman istimewa menikmati minuman hangat yang
+                memadukan manis alami gula aren murni dengan kekayaan rasa dari
+                rempah-rempah khas Indonesia.
+              </p>
+              <div class="space-y-8">
+                <!-- Fitur 1 -->
+                <div class="flex items-start" data-aos="zoom-in">
+                  <div
+                    class="flex-shrink-0 bg-gray-800 text-white rounded-full p-3"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9.75 11.25h-4.5m4.5 0h.008v.008H9.75V11.25Zm5.25 0h-2.25m4.5 0h-.008v.008H15.75V11.25Zm1.5 5.25v1.5m0-15a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0ZM12 15v1.5"
+                      />
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <h3 class="text-xl font-semibold mb-2">
+                      Bahan Alami Berkualitas
+                    </h3>
+                    <p class="text-gray-600">
+                      Terbuat dari gula aren asli tanpa campuran, dipadukan
+                      dengan rempah pilihan seperti jahe, lada hitam, sereh,
+                      kapulaga, kayu manis, dan cengkih.
+                    </p>
+                  </div>
+                </div>
+                <!-- Fitur 2 -->
+                <div
+                  class="flex items-start"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="flex-shrink-0 bg-gray-800 text-white rounded-full p-3"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 15v1.5m0-3V15m7.5-9.75A7.5 7.5 0 015.25 5.25M12 3v12m4.5 0H9.75m-2.25 0H3.75m8.25-6v12m6.75 0H15"
+                      />
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <h3 class="text-xl font-semibold mb-2">
+                      Sehat dan Berkhasiat
+                    </h3>
+                    <p class="text-gray-600">
+                      Kaya akan nutrisi alami, membantu meningkatkan imunitas,
+                      meredakan stres, dan menjaga kehangatan tubuh. Gula aren
+                      memiliki indeks glikemik (IG) yang relatif rendah
+                      dibandingkan dengan gula pasir atau pemanis lainnya.
+                    </p>
+                  </div>
+                </div>
+                <!-- Fitur 3 -->
+                <div
+                  class="flex items-start"
+                  data-aos="zoom-in"
+                  data-aos-delay="400"
+                >
+                  <div
+                    class="flex-shrink-0 bg-gray-800 text-white rounded-full p-3"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5.25 7.5a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0Zm3 9.75h6.75a7.5 7.5 0 016.75 6.75m-13.5 0a7.5 7.5 0 016.75-6.75H5.25"
+                      />
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <h3 class="text-xl font-semibold mb-2">Mudah Disajikan</h3>
+                    <p class="text-gray-600">
+                      Cukup seduh Arapah dengan air panas, aduk, dan nikmati
+                      kapan saja. Cocok untuk pagi, bekerja, atau bersantai.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu section -->
+      <section class="menu-section" id="product">
+        <h2 class="section-title">Our Product</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img
+                src="images/1-1.png"
+                alt="Rempah Hangat"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Rempah Hangat</h3>
+                <p class="text">
+                  Gula Aren Rempah Hangat, perpaduan manis gula aren dan khasiat
+                  jahe yang menyehatkan. Jahe yang terkandung membantu
+                  melancarkan pencernaan, menghangatkan tubuh, dan meningkatkan
+                  daya tahan.
+                </p>
+                <h3 class="name">Nett @150gr Rp.20.000</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/2-2.png" alt="Pedas Hangat" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Pedas Hangat</h3>
+                <p class="text">
+                  Gula Aren Pedas Hangat, perpaduan manis alami gula aren dengan
+                  sensasi pedas lada hitam yang menyegarkan. Kandungan lada
+                  hitamnya membantu meningkatkan metabolisme, dan memperlancar
+                  peredaran darah.
+                </p>
+                <h3 class="name">Nett @150gr Rp.20.000</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/3-3.png" alt="Segar Hangat" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Segar Hangat</h3>
+                <p class="text">
+                  Gula Aren Segar Hangat, kombinasi manisnya gula aren alami
+                  dengan aroma segar sereh yang menyegarkan. Sereh yang
+                  terkandung membantu meredakan stres, melancarkan pencernaan,
+                  dan memberikan sensasi segar pada setiap sajian.
+                </p>
+                <h3 class="name">Nett @150gr Rp.20.000</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/4-4.png" alt="Susu Hangat" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Susu Hangat</h3>
+                <p class="text">
+                  Gula Aren Susu Hangat, perpaduan manis gula aren alami dengan
+                  susu dan sentuhan rempah pilihan. Memberikan rasa hangat dan
+                  kaya akan manfaat, seperti meningkatkan daya tahan tubuh dan
+                  menenangkan pencernaan.
+                </p>
+                <h3 class="name">Nett @150gr Rp.25.000</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/5-5.png" alt="Kopi Hangat" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Kopi Hangat</h3>
+                <p class="text">
+                  Gula Aren Kopi Hangat, perpaduan manis alami gula aren dengan
+                  kelezatan kopi dan sentuhan rempah khas. Memberikan sensasi
+                  hangat, meningkatkan energi, dan menyegarkan tubuh.
+                </p>
+                <h3 class="name">Nett @150gr Rp.25.000</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="images/khusnul.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Khusnul, Cimahi</h3>
+                  <i class="feedback"
+                    >"Rasanya enak banget! Manisnya gula aren pas, nggak terlalu
+                    kuat, dan rempah-rempahnya bikin hangat di tenggorokan.
+                    Cocok banget diminum sore-sore sambil santai. Pasti beli
+                    lagi!"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/taufik.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Taufik, Bandung</h3>
+                  <i class="feedback"
+                    >"Arapah ini minuman wajib di rumah sekarang. Praktis banget
+                    buat diseduh kapan saja, dan aromanya langsung bikin rileks.
+                    Plus, nggak bikin enek seperti minuman instan lainnya."</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/citra.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Citra, Palembang</h3>
+
+                  <i class="feedback"
+                    >"Saya suka banget sama kombinasi gula aren dan rempahnya.
+                    Manfaatnya juga terasa, badan jadi hangat dan lebih segar.
+                    Favorit saya diminum pagi hari sebelum aktivitas."</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/nuel.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Nuel, Kalimantan</h3>
+
+                  <i class="feedback"
+                    >"Sebagai penggemar minuman tradisional, Arapah ini jadi
+                    pilihan terbaik! Rasanya otentik banget, seperti minuman
+                    khas buatan nenek saya dulu. Packaging-nya juga modern, jadi
+                    cocok buat hadiah."</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/nur.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Nur, Kab Bandung</h3>
+
+                  <i class="feedback"
+                    >"Arapah bukan cuma minuman, tapi juga 'obat' buat saya.
+                    Waktu badan terasa nggak enak atau masuk angin, minum ini
+                    langsung hangat dan enakan. Rekomen banget buat yang suka
+                    minuman sehat."</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/dafin.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Dafin, Jakarta</h3>
+
+                  <i class="feedback"
+                    >"Arapah bukan cuma minuman, tapi juga 'obat' buat saya.
+                    Waktu badan terasa nggak enak atau masuk angin, minum ini
+                    langsung hangat dan enakan. Rekomen banget buat yang suka
+                    minuman sehat."</i
+                  >
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="images/gallery3.png"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery6.png"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery4.png"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery2.png"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery5.png"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/gallery1.png"
+                alt="Gallery Image"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>Bandung, Jawa Barat, Indoensia</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>arapahofficial.gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>083-7512-5338</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Saturday: 10:00 AM - 3:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: Closed</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.arapahofficial.com</p>
+            </li>
+          </ul>
+
+          <form action="submit_form.php" method="POST" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name"
+              name="name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your email"
+              name="email"
+              class="form-input"
+              required
+            />
+            <textarea
+              placeholder="Your message"
+              name="message"
+              class="form-input"
+              required
+            ></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2024 Arapah Official</p>
+
+          <div class="social-link-list">
+            <a
+              href="https://www.instagram.com/arapah_official/"
+              target="_blank"
+              class="social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a
+              href="https://www.tiktok.com/@arapah_official"
+              target="_blank"
+              class="social-link"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/message/7MFLNC3V42PYI1"
+      target="_blank"
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #25d366;
+        color: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+      "
+    >
+      <i class="fa-brands fa-whatsapp" style="font-size: 30px"></i>
+    </a>
+  </body>
+</html>
